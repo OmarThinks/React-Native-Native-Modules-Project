@@ -26,7 +26,7 @@ const App: () => JSX.Element = () => {
           //console.log(value2);
 
           console.log(RTNCalculator);
-          console.log(RTNCalculator?.abcd);
+          console.log(RTNCalculator?.subtract);
         }}
       />
     </SafeAreaView>

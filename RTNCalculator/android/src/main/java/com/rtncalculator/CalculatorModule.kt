@@ -13,11 +13,9 @@ class CalculatorModule(reactContext: ReactApplicationContext) : NativeCalculator
     promise.resolve(a + b)
   }
 
-  
-  override fun abcd(a:Double, b: Double, promise: Promise){
-    promise.resolve(a + b)
+  override fun subtract(a:Double, b: Double, promise: Promise){
+    promise.resolve(a - b)
   }
-
   
   
 
