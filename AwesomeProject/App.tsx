@@ -8,6 +8,7 @@ import React from 'react';
 import {useState} from 'react';
 import {SafeAreaView, StatusBar, Text, Button} from 'react-native';
 import RTNCalculator from 'rtn-calculator/js/NativeCalculator';
+import A from 'rtn-calculator/js/NativeCalculator';
 
 const App: () => JSX.Element = () => {
   const [result, setResult] = useState<number | null>(null);
