@@ -3,7 +3,7 @@ import { TurboModuleRegistry } from "react-native";
 
 export interface Spec extends TurboModule {
   add(a: number, b: number): Promise<number>;
-  add2(a: number, b: number): Promise<number>;
+  abcd(a: number, b: number): Promise<number>;
 }
 
 export default TurboModuleRegistry.get<Spec>("RTNCalculator") as Spec | null;

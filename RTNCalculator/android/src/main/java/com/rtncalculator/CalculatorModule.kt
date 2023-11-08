@@ -8,14 +8,17 @@ class CalculatorModule(reactContext: ReactApplicationContext) : NativeCalculator
 
   override fun getName() = NAME
 
+  
   override fun add(a: Double, b: Double, promise: Promise) {
     promise.resolve(a + b)
   }
 
   
-  fun add2(a:Double, b: Double, promise: Promise){
+  override fun abcd(a:Double, b: Double, promise: Promise){
     promise.resolve(a + b)
   }
+
+  
   
 
   companion object {
