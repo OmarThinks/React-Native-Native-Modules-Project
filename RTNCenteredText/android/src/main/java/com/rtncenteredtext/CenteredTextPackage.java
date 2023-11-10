@@ -12,7 +12,7 @@ public class CenteredTextPackage implements ReactPackage {
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-        return Collections.emptyList();
+        return Collections.singletonList(new CenteredTextManager(reactContext));
     }
 
     @Override
