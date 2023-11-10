@@ -8,11 +8,13 @@ buildscript {
   }
   dependencies {
     classpath("com.android.tools.build:gradle:7.3.1")
+    classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.22")
   }
 }
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.facebook.react'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
   compileSdkVersion safeExtGet('compileSdkVersion', 33)
